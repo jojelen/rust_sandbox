@@ -3,7 +3,12 @@ name = "rust_sandbox"
 version = "0.1.0"
 authors = ["Joel Oredsson <joelo@axis.com>"]
 edition = "2018"
+repository = "https://github.com/jojelen/rust_sandbox"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+libc = "0.2"
+
+[build-dependencies]
+bindgen = "0.53.1"
