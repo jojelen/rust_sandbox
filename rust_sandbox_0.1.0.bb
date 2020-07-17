@@ -8,10 +8,10 @@ inherit cargo
 # how to get rust_sandbox could be as easy as but default to a git checkout:
 # SRC_URI += "crate://crates.io/rust_sandbox/0.1.0"
 SRC_URI += "git://github.com/jojelen/rust_sandbox.git;protocol=https;nobranch=1"
-SRCREV = "ccb58cc10163239b0cdd01ad4a2d30a768662da9"
+SRCREV = "3c624ef6d9732603ea2b25ce7b156c3795d3f905"
 S = "${WORKDIR}/git"
 CARGO_SRC_DIR = ""
-PV_append = ".AUTOINC+ccb58cc101"
+PV_append = ".AUTOINC+3c624ef6d9"
 
 # please note if you have entries that do not begin with crate://
 # you must change them to how that package can be fetched
